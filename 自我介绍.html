@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+        h1 {
+            color: rgb(115, 36, 36);
+            font-size: 1000%;
+            margin: auto;
+            text-align: center;
+            padding-left: 5%;
+        }
+        #h22 {
+            width: 900px;
+            margin: auto;
+            padding: 1px;
+            
+            text-align: center;
+            font-size: 400%;
+            margin-left: 31%;
+            text-align: left;
+
+        }
+        #h23 {
+            text-align: center;
+            font-size: 300%;
+            text-align: left;
+            margin-left: 33%;
+        }
+        #h21 {
+            color: rgb(210, 122, 225);
+            font-size: 500%;
+            margin: auto;
+            display: block;
+            text-align: center;
+        }
+        #img1 {
+            width: 50%;
+            display: block;
+            
+            margin: 0px auto;
+        }
+        #img2 {
+            width: 50%;
+            display: block;
+            margin: 0px auto;
+        }
+        #img3 {
+            width: 50%;
+            display: block;
+            margin: 0px auto;
+        }
+        #pp1 {
+            color: rgb(0, 0, 0);
+            margin: auto;
+            display: block;
+            
+            padding: 0;
+            text-align: center;
+            font-size: 500%;
+
+        }
+
+
+        #b1 {
+            background-color: antiquewhite;
+            padding: 0%;
+            font-size: 100%;
+            border: 0cap;
+        }
+        #b1:hover {
+            color: aliceblue;
+            background-color: black;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+        #pp {
+            color: rgba(46, 89, 24, 0.671);
+            text-align: left;
+            width: 1000px;
+            margin-left: 0%;
+            font-size: 150%;
+            padding: 0%;
+        }
+        #p3 {
+            margin: auto;
+            display: block;
+            text-align: center;
+        }
+        ul {
+            margin-left: 34%;
+            font-size: 300%;
+            padding: 0%;
+            height: 0;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div id="p1">
+        <h1>Hi~ 你好呀！</h1>
+        <h2 id="h21">先欣赏美图</h2>
+        <img src="d:\游戏\浏览器edge\【哲风壁纸】丝-丝袜风情.png" alt="美图" id="img1">
+        <img src="d:\游戏\浏览器edge\【哲风壁纸】好看-好身材-室内.jpg" alt="美图2" id="img2">
+        <img src="d:\游戏\浏览器edge\【哲风壁纸】低胸-写真-室内.jpg" alt="美3" id="img3">
+        <p id="pp1">看好了？来<button id="b1" onclick="page2()"">进入正题</button></p>
+    </div>
+    <div id="p2" style="display: none;">
+        <h2 id="h22">接下来就是我的自我介绍！</h2>
+        <p id="p3">还没看够？<button id="b2" onclick="page1()">回去！</button></p>
+    <h3 id="h23">介绍的内容包括：</h3>
+    <ul>
+        <li>我的名字</li>
+        <p id="pp">我叫 依尔盼</p>
+        <li>我的家乡</li>
+        <p id="pp">新疆喀什</p>
+        <li>我的爱好</li>
+        <p id="pp">就是爱计算机</p>
+        <li>我的性格</li>
+        <p id="pp">有点内向 不擅长表达</p>
+    </ul>
+    </div>
+    <script>
+        function page2() {
+            document.getElementById('p1').style.display='none'
+            document.getElementById('p2').style.display='block'
+        }
+        function page1() {
+            document.getElementById('p1').style.display='block'
+            document.getElementById('p2').style.display='none'
+        }
+    </script>
+
+</body>
+
+</html>
